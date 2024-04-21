@@ -1,0 +1,12 @@
+Source: jabebeu
+Section: utils
+Priority: optional
+Maintainer: Luiz Quirino <luizfpq@gmail.com>
+Build-Depends: debhelper (>= 11), dh-virtualenv
+Standards-Version: 0.1
+
+Package: hidraqua
+Architecture: all
+Depends: ${misc:Depends}, python3, python3-plyer, python3-tk
+Description: Um aplicativo para lembrá-lo de beber água regularmente.
+ Hidraqua é um aplicativo simples que envia notificações lembrando você de beber água em intervalos regulares.
